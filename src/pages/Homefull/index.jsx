@@ -5,9 +5,9 @@ import { Heading, Img, Button, Text, GoogleMap, Input, Slider, SelectBox } from 
 import HomeFullRowthu from "../../components/HomeFullRowthu";
 
 const dropDownOptions = [
-  { label: "Option1", value: "option1" },
-  { label: "Option2", value: "option2" },
-  { label: "Option3", value: "option3" },
+  { label: "Riyadh", value: "option1" },
+  { label: "Jaddah", value: "option2" },
+  { label: "Dammam", value: "option3" },
 ];
 
 export default function HomefullPage() {
@@ -146,8 +146,8 @@ export default function HomefullPage() {
                         className="justify-center h-[287px] w-full left-0 bottom-0 right-0 top-0 m-auto rounded-br-[22px] object-cover absolute"
                       />
                       <div className="flex flex-row justify-start w-full bottom-0 right-0 left-0 p-[19px] m-auto rounded-bl-[22px] rounded-br-[22px] bg-gradient5 absolute">
-                        <Heading size="2xl" as="h5" className="w-[87%] mt-1.5 !text-black-900_01 rotate-[180deg]">
-                          Virtual Tours & Travel
+                        <Heading size="2xl" as="h5" className="w-[87%] mt-1.5 !text-black-900_01 rotate-[360deg]">
+                          Virtual Tours & Travels
                         </Heading>
                       </div>
                     </div>
