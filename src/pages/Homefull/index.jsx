@@ -385,17 +385,7 @@ export default function HomefullPage() {
                                     24
                                   </Text>
                                 </div>
-                                <div className="flex flex-col items-center justify-start w-[9%] gap-3">
-                                  <HomeFullRowthu className="flex flex-row justify-center w-[84%]" />
-                                  <Img
-                                    src="images/img_sun_cloud.png"
-                                    alt="suncloud_one"
-                                    className="w-full object-cover"
-                                  />
-                                  <Text as="p" className="!text-white-A700 !text-[18.65px]">
-                                    24
-                                  </Text>
-                                </div>
+                                
                                 <div className="flex flex-col items-center justify-start w-[9%] gap-[19px]">
                                   <HomeFullRowthu thu="Sun" className="h-[25px] w-full relative" />
                                   <div className="flex flex-col items-center justify-start w-[57%] gap-[11px]">
@@ -496,23 +486,6 @@ export default function HomefullPage() {
                       <Heading size="3xl" as="h6" className="!text-[24.93px]">
                         Thursday 10:00 AM
                       </Heading>
-                    </div>
-                    <div className="flex flex-row justify-between items-start w-[79%] right-0 top-[13%] m-auto absolute">
-                      <Text
-                        size="3xl"
-                        as="p"
-                        className="mt-[43px] !text-white-A700 !font-sfprodisplay capitalize !text-[27.1px]"
-                      >
-                        saudi arabia
-                      </Text>
-                      <div className="flex flex-row justify-start items-start gap-px">
-                        <Heading size="12xl" as="h1">
-                          29
-                        </Heading>
-                        <Heading size="6xl" as="h2" className="mt-[29px] !text-[35.42px]">
-                          °C
-                        </Heading>
-                      </div>
                     </div>
                   </div>
                 </React.Fragment>
