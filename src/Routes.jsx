@@ -6,12 +6,16 @@ import Homefull from "pages/Homefull";
 
 const ProjectRoutes = () => {
   let element = useRoutes([
-    { path: "/", element: <Home /> },
+    // { path: "/", element: <Home /> },
     { path: "*", element: <NotFound /> },
+    // {
+    //   path: "homefull",
+    //   element: <Homefull />,
+    // },
     {
-      path: "homefull",
+      path: "/",
       element: <Homefull />,
-    },
+    }
   ]);
 
   return element;
