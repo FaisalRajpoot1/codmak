@@ -5,9 +5,9 @@ import { Heading, Img, Button, Text, GoogleMap, Input, Slider, SelectBox } from 
 import HomeFullRowthu from "../../components/HomeFullRowthu";
 
 const dropDownOptions = [
-  { label: "Option1", value: "option1" },
-  { label: "Option2", value: "option2" },
-  { label: "Option3", value: "option3" },
+  { label: "Riyadh", value: "option1" },
+  { label: "Jaddah", value: "option2" },
+  { label: "Dammam", value: "option3" },
 ];
 
 export default function HomefullPage() {
@@ -146,8 +146,8 @@ export default function HomefullPage() {
                         className="justify-center h-[287px] w-full left-0 bottom-0 right-0 top-0 m-auto rounded-br-[22px] object-cover absolute"
                       />
                       <div className="flex flex-row justify-start w-full bottom-0 right-0 left-0 p-[19px] m-auto rounded-bl-[22px] rounded-br-[22px] bg-gradient5 absolute">
-                        <Heading size="2xl" as="h5" className="w-[87%] mt-1.5 !text-black-900_01 rotate-[180deg]">
-                          Virtual Tours & Travel
+                        <Heading size="2xl" as="h5" className="w-[87%] mt-1.5 !text-black-900_01 rotate-[360deg]">
+                          Virtual Tours & Travels
                         </Heading>
                       </div>
                     </div>
@@ -385,17 +385,7 @@ export default function HomefullPage() {
                                     24
                                   </Text>
                                 </div>
-                                <div className="flex flex-col items-center justify-start w-[9%] gap-3">
-                                  <HomeFullRowthu className="flex flex-row justify-center w-[84%]" />
-                                  <Img
-                                    src="images/img_sun_cloud.png"
-                                    alt="suncloud_one"
-                                    className="w-full object-cover"
-                                  />
-                                  <Text as="p" className="!text-white-A700 !text-[18.65px]">
-                                    24
-                                  </Text>
-                                </div>
+                                
                                 <div className="flex flex-col items-center justify-start w-[9%] gap-[19px]">
                                   <HomeFullRowthu thu="Sun" className="h-[25px] w-full relative" />
                                   <div className="flex flex-col items-center justify-start w-[57%] gap-[11px]">
@@ -496,23 +486,6 @@ export default function HomefullPage() {
                       <Heading size="3xl" as="h6" className="!text-[24.93px]">
                         Thursday 10:00 AM
                       </Heading>
-                    </div>
-                    <div className="flex flex-row justify-between items-start w-[79%] right-0 top-[13%] m-auto absolute">
-                      <Text
-                        size="3xl"
-                        as="p"
-                        className="mt-[43px] !text-white-A700 !font-sfprodisplay capitalize !text-[27.1px]"
-                      >
-                        saudi arabia
-                      </Text>
-                      <div className="flex flex-row justify-start items-start gap-px">
-                        <Heading size="12xl" as="h1">
-                          29
-                        </Heading>
-                        <Heading size="6xl" as="h2" className="mt-[29px] !text-[35.42px]">
-                          °C
-                        </Heading>
-                      </div>
                     </div>
                   </div>
                 </React.Fragment>
