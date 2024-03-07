@@ -6,7 +6,7 @@ import HomeFullRowthu from "../../components/HomeFullRowthu";
 
 const dropDownOptions = [
   { label: "Riyadh", value: "option1" },
-  { label: "Jaddah", value: "option2" },
+  { label: "Jaddeh", value: "option2" },
   { label: "Dammam", value: "option3" },
 ];
 
